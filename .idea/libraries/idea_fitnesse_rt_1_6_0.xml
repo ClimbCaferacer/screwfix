@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="idea-fitnesse_rt-1.6.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/idea-fitnesse_rt-1.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fitnesse-20161106-standalone">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/fitnesse-20161106-standalone.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
