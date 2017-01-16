@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="com.screwfix.MainPageTest" time="9.52" errors="0" skipped="0">
+<testsuite tests="30" failures="0" name="com.screwfix.MainPageTest" time="0.844" errors="20" skipped="10">
   <properties>
     <property name="idea.version" value="15.0.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7536"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -46,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_65\jre"/>
-    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.4 clean compile test"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.4 clean compile test -e"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -63,8 +63,243 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.screwfix.MainPageTest" name="isElementPresent" time="0.022"/>
-  <testcase classname="com.screwfix.MainPageTest" name="isElementPresent" time="0.026"/>
-  <testcase classname="com.screwfix.MainPageTest" name="isElementPresent" time="0.02"/>
-  <testcase classname="com.screwfix.MainPageTest" name="isElementPresent" time="0.017"/>
+  <testcase classname="| Your account link | #header_link_sign_in\&quot; |" name="Given User on Screwfix main page" time="0.007">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>Feature: MainPageTests
+
+  Scenario Outline: Check that elements present on Screwfix Main Page &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:3&amp;#27;[0m
+    &amp;#27;[36mGiven &amp;#27;[0m&amp;#27;[36mUser on Screwfix main page&amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &lt;elementName&gt; found by css selector &lt;elementId&gt;&amp;#27;[0m
+
+    Examples: 
+</system-out>
+  </testcase>
+  <testcase classname="| Your account link | #header_link_sign_in\&quot; |" name="| Your account link | #header_link_sign_in\&quot; |" time="0.01">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Your account link | #header_link_sign_in\&quot; |" name="Then Element Your account link found by css selector #header_link_sign_in\&quot;" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Search button | #search_submit_button |" name="Given User on Screwfix main page" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page          &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:8&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                           &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mElement Your account link found by css selector #header_link_sign_in&quot;&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Search button | #search_submit_button |" name="| Search button | #search_submit_button |" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Search button | #search_submit_button |" name="Then Element Search button found by css selector #search_submit_button" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Screwfix logo | #branding-logo |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page      &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:9&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                       &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mSearch button&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m#search_submit_button&amp;#27;[0m &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Screwfix logo | #branding-logo |" name="| Screwfix logo | #branding-logo |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Screwfix logo | #branding-logo |" name="Then Element Screwfix logo found by css selector #branding-logo" time="0.016">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Tools Menu | #firstLevelCat_0 |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:10&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                  &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mScrewfix logo&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m#branding-logo&amp;#27;[0m   &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Tools Menu | #firstLevelCat_0 |" name="| Tools Menu | #firstLevelCat_0 |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Tools Menu | #firstLevelCat_0 |" name="Then Element Tools Menu found by css selector #firstLevelCat_0" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:11&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                  &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mTools Menu&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m#firstLevelCat_0&amp;#27;[0m    &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" name="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" name="Then Element Heating &amp; Plumbing Menu found by css selector #firstLevelCat_1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Checkout | .checkout |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page           &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:12&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                            &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mHeating &amp; Plumbing Menu&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m#firstLevelCat_1&amp;#27;[0m &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Checkout | .checkout |" name="| Checkout | .checkout |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Checkout | .checkout |" name="Then Element Checkout found by css selector .checkout" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| View All Top Brands link | .ViewAllLink |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:13&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                  &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mCheckout&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m.checkout&amp;#27;[0m             &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| View All Top Brands link | .ViewAllLink |" name="| View All Top Brands link | .ViewAllLink |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| View All Top Brands link | .ViewAllLink |" name="Then Element View All Top Brands link found by css selector .ViewAllLink" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Contact Us link | .icon-contact |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page        &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:14&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                         &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mView All Top Brands link&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m.ViewAllLink&amp;#27;[0m &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Contact Us link | .icon-contact |" name="| Contact Us link | .icon-contact |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Contact Us link | .icon-contact |" name="Then Element Contact Us link found by css selector .icon-contact" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" name="Given User on Screwfix main page" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:15&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                  &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mContact Us link&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m.icon-contact&amp;#27;[0m  &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" name="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" time="0.001">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" name="Then Element Find A Store link found by css selector a[title=\&apos;Find a Store\&apos;]" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="| About Us link | a[title=\&apos;About Us\&apos;] |" name="Given User on Screwfix main page" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+    <system-out>
+  Scenario Outline: Check that elements present on Screwfix Main Page            &amp;#27;[90m# src/test/resources/cucumber/feature/MainPageFeature.feature:16&amp;#27;[0m
+    &amp;#27;[31mGiven &amp;#27;[0m&amp;#27;[31mUser on Screwfix main page&amp;#27;[0m                                             &amp;#27;[90m# MainPageSteps.openScrewfixPage()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.NullPointerException
+      	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+      	at ?.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+      &amp;#27;[0m
+    &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mElement &amp;#27;[0m&amp;#27;[36m&amp;#27;[1mFind A Store link&amp;#27;[0m&amp;#27;[36m found by css selector &amp;#27;[0m&amp;#27;[36m&amp;#27;[1ma[title=&apos;Find a Store&apos;]&amp;#27;[0m &amp;#27;[90m# MainPageSteps.isElementPresent(String,String)&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="| About Us link | a[title=\&apos;About Us\&apos;] |" name="| About Us link | a[title=\&apos;About Us\&apos;] |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.screwfix.MainPageSteps.openScrewfixPage(MainPageSteps.java:46)
+	at ✽.Given User on Screwfix main page(src/test/resources/cucumber/feature/MainPageFeature.feature:4)
+</error>
+  </testcase>
+  <testcase classname="| About Us link | a[title=\&apos;About Us\&apos;] |" name="Then Element About Us link found by css selector a[title=\&apos;About Us\&apos;]" time="0.007">
+    <skipped/>
+  </testcase>
 </testsuite>
