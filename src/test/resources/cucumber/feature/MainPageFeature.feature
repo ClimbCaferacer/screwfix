@@ -5,7 +5,7 @@ Feature: MainPageTests
     Then Element <elementName> found by css selector <elementId>
     Examples:
   |elementName              |elementId                |
-  |Your account link        |#header_link_sign_in"    |
+  |Your account link        |#header_link_sign_in     |
   |Search button            |#search_submit_button    |
   |Screwfix logo            |#branding-logo           |
   |Tools Menu               |#firstLevelCat_0         |
@@ -14,4 +14,4 @@ Feature: MainPageTests
   |View All Top Brands link |.ViewAllLink             |
   |Contact Us link          |.icon-contact            |
   |Find A Store link        |a[title='Find a Store']  |
-  |About Us link            |a[title='About Us']      |
+  |About Us link            |a[title='About us']      |
