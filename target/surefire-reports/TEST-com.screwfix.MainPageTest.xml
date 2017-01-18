@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="30" failures="0" name="com.screwfix.MainPageTest" time="81.296" errors="0" skipped="0">
+<testsuite tests="21" failures="0" name="com.screwfix.MainPageTest" time="23.849" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="15.0.4"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -11,7 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
-    <property name="idea.launcher.port" value="7538"/>
+    <property name="idea.launcher.port" value="7533"/>
     <property name="user.script" value=""/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
@@ -63,34 +63,25 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="| Your account link | #header_link_sign_in |" name="Given User on Screwfix main page" time="0.001"/>
-  <testcase classname="| Your account link | #header_link_sign_in |" name="Then Element Your account link found by css selector #header_link_sign_in" time="0"/>
-  <testcase classname="| Your account link | #header_link_sign_in |" name="| Your account link | #header_link_sign_in |" time="1.152"/>
-  <testcase classname="| Search button | #search_submit_button |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Search button | #search_submit_button |" name="Then Element Search button found by css selector #search_submit_button" time="0"/>
-  <testcase classname="| Search button | #search_submit_button |" name="| Search button | #search_submit_button |" time="1.115"/>
-  <testcase classname="| Screwfix logo | #branding-logo |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Screwfix logo | #branding-logo |" name="Then Element Screwfix logo found by css selector #branding-logo" time="0"/>
-  <testcase classname="| Screwfix logo | #branding-logo |" name="| Screwfix logo | #branding-logo |" time="1.097"/>
-  <testcase classname="| Tools Menu | #firstLevelCat_0 |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Tools Menu | #firstLevelCat_0 |" name="Then Element Tools Menu found by css selector #firstLevelCat_0" time="0"/>
-  <testcase classname="| Tools Menu | #firstLevelCat_0 |" name="| Tools Menu | #firstLevelCat_0 |" time="1.041"/>
-  <testcase classname="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" name="Then Element Heating &amp; Plumbing Menu found by css selector #firstLevelCat_1" time="0"/>
-  <testcase classname="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" name="| Heating &amp; Plumbing Menu | #firstLevelCat_1 |" time="1.06"/>
-  <testcase classname="| Checkout | .checkout |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Checkout | .checkout |" name="Then Element Checkout found by css selector .checkout" time="0"/>
-  <testcase classname="| Checkout | .checkout |" name="| Checkout | .checkout |" time="1.093"/>
-  <testcase classname="| View All Top Brands link | .ViewAllLink |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| View All Top Brands link | .ViewAllLink |" name="Then Element View All Top Brands link found by css selector .ViewAllLink" time="0"/>
-  <testcase classname="| View All Top Brands link | .ViewAllLink |" name="| View All Top Brands link | .ViewAllLink |" time="1.038"/>
-  <testcase classname="| Contact Us link | .icon-contact |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Contact Us link | .icon-contact |" name="Then Element Contact Us link found by css selector .icon-contact" time="0"/>
-  <testcase classname="| Contact Us link | .icon-contact |" name="| Contact Us link | .icon-contact |" time="1.045"/>
-  <testcase classname="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" name="Then Element Find A Store link found by css selector a[title=\&apos;Find a Store\&apos;]" time="0"/>
-  <testcase classname="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" name="| Find A Store link | a[title=\&apos;Find a Store\&apos;] |" time="0.983"/>
-  <testcase classname="| About Us link | a[title=\&apos;About us\&apos;] |" name="Given User on Screwfix main page" time="0"/>
-  <testcase classname="| About Us link | a[title=\&apos;About us\&apos;] |" name="Then Element About Us link found by css selector a[title=\&apos;About us\&apos;]" time="0"/>
-  <testcase classname="| About Us link | a[title=\&apos;About us\&apos;] |" name="| About Us link | a[title=\&apos;About us\&apos;] |" time="1.049"/>
+  <testcase classname="Scenario: Register user through basket" name="Given User on Screwfix main page" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User search for \&quot;THERMOMETER\&quot;" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then \&quot;TPI 343 K-Type Digital Thermometer\&quot; found in product table" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User click on \&quot;Deliver\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then \&quot;TPI 343 K-Type Digital Thermometer\&quot; added to basket for delivery" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="And Click on \&quot;Continue shopping\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User search for \&quot;22622\&quot;" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then \&quot;EURAMAX S LH DOUBLE-GLAZED UPVC WINDOW CLEAR 620 X 1050MM\&quot; found by product code" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User click on \&quot;Deliver\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then \&quot;EURAMAX S LH DOUBLE-GLAZED UPVC WINDOW CLEAR 620 X 1050MM\&quot; added to basket for delivery" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="And Click on \&quot;Checkout now\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User on the trolley page with 2 items in it" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then Click on \&quot;Continue payment\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User on sign in page" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then Click on \&quot;Register now\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User on registration page" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Then User enter email" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="And Click on \&quot;Continue\&quot; button" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="When User on registration page after adding email" time="0.001"/>
+  <testcase classname="Scenario: Register user through basket" name="Then User fills registration info" time="0"/>
+  <testcase classname="Scenario: Register user through basket" name="Scenario: Register user through basket" time="1.162"/>
 </testsuite>

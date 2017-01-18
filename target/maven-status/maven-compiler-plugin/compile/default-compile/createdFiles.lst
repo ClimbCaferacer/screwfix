@@ -1,2 +1,4 @@
+com\screwfix\data\ContactInfoDataProvider.class
 com\screwfix\objects\MainPage.class
+com\screwfix\objects\RegistrationPage.class
 com\screwfix\data\MainPageData.class
